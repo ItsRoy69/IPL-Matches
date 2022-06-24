@@ -1,0 +1,67 @@
+.table{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tally {
+    background: rgba(14, 13, 13, 0.886);
+    width: 50em;
+    color: white;
+    margin: auto;
+    padding: 2.5em;
+    margin-top: 25vh;
+    margin-bottom: 5vh;
+  }
+  
+  .table-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+  }
+  
+  .table-header span {
+    margin: 0em 1.25em;
+  }
+  
+  hr {
+    border: 0.5px solid gray;
+  }
+  .team-details {
+    display: flex;
+  }
+  
+  .team-details div {
+    margin: 0 1em;
+  }
+  
+  .stats {
+    display: flex;
+  }
+  
+  .match-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 0em;
+  }
+  
+  .match-details div {
+    margin: 0em 1em;
+    text-align: left;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .tally {
+      width: 20em;
+      padding: 1em;
+    }
+    .match-details div {
+      margin: 0.5em;
+    }
+    .table-header span {
+      margin: 0.5em;
+    }
+    .team-details div {
+      margin: 0.5em;
+    }
+  }

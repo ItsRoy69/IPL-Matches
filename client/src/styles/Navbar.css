@@ -17,6 +17,8 @@
     flex-direction: column;
     align-items: center;
     height: 125px;
+    position: fixed;
+    width: 100%;
 }
 
 
@@ -29,19 +31,7 @@
 }
 
 .navbar-searchbox{
-    width: 805px;
-    height: 40px;
-    border-radius: 20px;
-    border: none;
-    padding: 0;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-family: Poppins,sans-serif;
-    font-size: 14px;
-}
-
-.navbar-search input:focus {
-    outline: none !important;
+    width: 800px;
 }
 
 .navbar-logoend{
@@ -55,7 +45,7 @@
 }
 
 .tabs-container{
-    width: 300px;
+    width: 400px;
     text-align: center;
     margin-top: 20px;
     text-decoration: none;
@@ -71,3 +61,4 @@
     font-family: Poppins,sans-serif;
     font-size: 14px;
 }
+

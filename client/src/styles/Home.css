@@ -1,6 +1,41 @@
 .home{
     width: 100%;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
+
+.tile {
+    display: flex;
+    text-align: left;
+    background-color: #202125;
+    color: rgb(147, 150, 157);
+    font-size: 15px;
+    padding: 16px;
+    justify-content: space-between;
+    border: rgb(60, 64, 67) solid 2px;
+    cursor: pointer;
+    height: 100px;
+  }
+
+  .tile:hover {
+    background-color: #050606;
+  }
+
+  .matches {
+    column-count: 2;
+    column-gap: 0;
+    width: 60vw;
+    margin: auto;
+    margin-top: 25vh;
+    margin-bottom: 5vh;
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+    line-height: 166%;
+  }
+  
+  .date {
+    text-align: right;
+  }
