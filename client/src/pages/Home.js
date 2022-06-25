@@ -6,7 +6,7 @@ import axios from "axios";
 const Home = () => {
 
   const [data, setData] = useState([]);
-  const [search, setSearch] = useState();
+  const [ search ] = useState();
 
   let final = [];
     search?.split(" ").forEach((item) => {

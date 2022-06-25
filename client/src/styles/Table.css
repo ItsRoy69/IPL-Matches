@@ -1,7 +1,6 @@
 .table{
     width: 100%;
     display: flex;
-    flex-direction: column;
 }
 
 .tally {
@@ -16,52 +15,56 @@
   
   .table-header {
     display: flex;
+    border-bottom: rgb(60, 64, 67) solid 2px;
     justify-content: space-between;
-    padding-top: 1em;
   }
-  
-  .table-header span {
-    margin: 0em 1.25em;
+
+  .table-points{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 1em;
   }
-  
-  hr {
-    border: 0.5px solid gray;
+
+ h4{
+    color: rgb(147, 150, 157);
+    font-size: 15px;
   }
-  .team-details {
-    display: flex;
+
+  .team-items{
+    padding-left: 20px;
   }
-  
-  .team-details div {
-    margin: 0 1em;
-  }
-  
-  .stats {
-    display: flex;
-  }
-  
-  .match-details {
+
+  .match-details{
     display: flex;
     justify-content: space-between;
-    margin: 3em 0em;
+    border-bottom: rgb(60, 64, 67) solid 2px;
   }
-  
-  .match-details div {
-    margin: 0em 1em;
-    text-align: left;
+
+  .team-details{
+    display: flex;   
   }
-  
-  @media only screen and (max-width: 600px) {
-    .tally {
-      width: 20em;
-      padding: 1em;
-    }
-    .match-details div {
-      margin: 0.5em;
-    }
-    .table-header span {
-      margin: 0.5em;
-    }
-    .team-details div {
-      margin: 0.5em;
-    }
+
+  .team-stats{
+    display: flex;
   }
+
+  .team-lost{
+    padding-right: 44px;
+  }
+
+  .team-win{
+    padding-right: 48px;
+  }
+
+  .team-match{
+    padding-right: 48px;
+  }
+
+  .team-point{
+    padding-right: 40px;
+  }
+  .circles img{
+    padding: 2px;
+  }
+
+
