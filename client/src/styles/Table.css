@@ -63,8 +63,50 @@
   .team-point{
     padding-right: 40px;
   }
+
   .circles img{
     padding: 2px;
   }
 
 
+  @media screen and (max-width: 420px) {    
+    .tally {
+      background-color: #303134;
+      width: 30em;
+      margin: 0;
+      padding: 8px;
+      margin-top: 18vh;
+      margin-bottom: 5vh;
+    }
+
+    .table-points{
+      display: grid;
+      grid-template-columns: repeat(5,1fr);
+      grid-gap: 1px;
+    }
+
+    h4{
+      font-weight: lighter;
+    }
+
+    .team-lost{
+      padding-right: 25px;
+    }
+  
+    .team-win{
+      padding-right: 28px;
+    }
+  
+    .team-match{
+      padding-right: 32px;
+    }
+  
+    .team-point{
+      padding-right: 15px;
+    }
+    .circles img{
+      padding: 1px;
+      width: 8px;
+    }
+    
+ }
